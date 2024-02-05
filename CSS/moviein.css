@@ -9,7 +9,7 @@ body{
 .alignbox{
 	min-height: 100vh;
 	width: 100%;
-	background-image: url("../images/bg.jpg");
+	background-image: url("../images/itwallpaper.jpg");
 	display: grid;
 	place-items: center;
 }
@@ -21,6 +21,15 @@ body{
 	min-width: 100%;
 }
 
+.topbutton{
+	border-bottom-right-radius: 99px;
+	margin-top: 0;
+	margin-left: 0;
+	position: absolute;
+	background-color: red;
+	font-family: Cursive;
+	padding: 40px;
+}
 .linkbutton{
 	display: grid;
 	place-items: center;
