@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Upload Art </title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/movie submit.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+	<link href="css/footer.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>	
+	<div class="topbutton">
+		<a href="index.html"> HOME</a>
+	</div>
+	<div class="alignbox">
+		
+<div class="wrapper">
+    <div class="title">
+        <h3><span class="text"><img src="C:\Users\Devansh\Pictures\Logo_OpenStageIWP.png" alt="logo" height="100" width="200"> </span><br> Upload your Art </h3>
+        <hr>
+    </div>
+    <div class="form" >
+        <form id="movieform" name="movieform"  method="POST" action="record.php" enctype="multipart/form-data">
+            <div class="form_control">
+                <label>Name of Art </label>
+                <input type="text" name="mname" id="mname" class="input_field" placeholder="Enter the name...">
+            </div>
+            <div class="form_control">
+                <label>Released Year</label>
+                <input type="text" name="year" id="year" class="input_field" placeholder="Enter the year...">
+            </div>
+            <div class="form_control">
+                <label>Genre</label>
+                <select id="genre" name="genre" class="input_field">
+                        <option value="">Select the Genre of Art </option>
+                        <option value="action">Film</option>
+                        <option value="comedy">Music</option>
+                        <option value="fantasy">Poetry</option>
+                        <option value="horror">Dance</option>
+                </select>
+            </div>
+            <div class="form_control">
+                <label>Describe the Art </label>
+				<textarea name="description" id="description" class="input_field" placeholder="Enter a lengthy description..."></textarea>
+            </div>
+            <div class="form_control">
+                <label>Display Image </label>
+                <div class="file-btn"><input type="file" name="poster" id="poster" class="input_field"  accept="image/png, image/jpeg, image/jpg ">
+				<p class="warn"> *only upload '.png', '.jpg' and '.jpeg' files</p></div>
+            </div>
+			<div class="form_control">
+                <label>Email</label>
+                <input type="text" name="email" id="email" class="input_field" placeholder="Enter the email...">
+            </div>
+            <div class="form_control">
+                <input type="submit" class="btn-custom" value="Submit" >
+            </div>
+        </form>
+    </div></div>
+</div>
+	<footer class="footer-distributed">
+ 
+		<div class="footer-left">
+ 
+		<h3>Open <span> Stage </span></h3>
+ 
+		<p class="footer-links">
+		<a href="index.html">Home</a>
+	·
+		<a href="about.html">Gallery </a>
+	·
+		<a href="movie-submit.html">Upload</a>
+		</p>
+ 
+		<p class="footer-company-name">Openstage</p>
+		</div>
+ 
+		<div class="footer-center">
+ 
+		<div>
+		<i class="fa fa-map-marker"></i>
+		<p>VIT Chennai</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-phone"></i>
+		<p>+91 8971411577</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p>devansh.tripathi2020@vitstudent.ac.in</p>
+		</div>
+ 
+		</div>
+ 
+		<div class="footer-right">
+ 
+			<p class="footer-company-about">
+				<span>About the company</span>
+				OpenStage provides a platform to Artists to connect with the audience, and also gives people the space to explore various Artists and watch anyone they wish to Watch.
+				The Big Budget Arts have been digitally reaching various People but the small Budget Art performed on Individual level has been unable to make its impression on Society.
+				With the Platform in their hand they can connect to a wide variety of Audience and also improvise upon their work.
+				Thus, we will be able to empower the local Artists with connectivity and give them an openstage to Produce Quality and Authentic Content, and Entertain their Audience.
+
+			</p>
+ 
+		
+ 
+		</div>
+ 
+		</footer>
+</body>
+</html>
